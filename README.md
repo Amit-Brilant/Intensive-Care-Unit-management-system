@@ -1,10 +1,15 @@
 ## Intensive Care Unit management system
+<p align="center">
+	
+<img src="intro.png" alt="" title="Optional title" width="400"  />
+</p>
 
 ## Introduction
 
 Israel's hospitals have intensive care departments that provide life-saving treatments. Patients receive urgent care, including medical procedures and appropriate medication, based on their sensitivities and the therapist's role and specialization. Efficient conduct in intensive care units can save lives and prevent negligence. To streamline and improve the system, data must be organized and analyzed. The Ministry of Health requested the design of an information management system for all intensive care units, allowing for staff and patient monitoring, access to medical procedures and medication details, and financial management. The system must be user-friendly and serve both treating staff and the Ministry of Health personnel.
 
 ## Entities
+
 #### Workers
 
 Employees provide medical treatment and are employed by hospitals for a salary. In each department of a hospital there is a staff of therapists divided into:
@@ -44,6 +49,13 @@ In the wards, there are drugs given to patients. The following must be kept: the
 
 On the wards, various procedures are performed on patients by the treating staff. You must keep the following: procedure ID, name of the procedure, price, and medical devices required for the procedure (there is no limit on the number of medical devices required for the procedure).
 
+## ERD
+
+<p align="center">
+	
+<img src="ERD.png" alt="" title="Optional title" width="700"  />
+</p>
+
 ## Assumptions
 
 • One phone number for each employee, patient, and emergency contact.
@@ -71,8 +83,6 @@ On the wards, various procedures are performed on patients by the treating staff
 • A patient will pay his bill only on the day of hospital discharge.
 
 
-
-
 ## System users
 
 * Nurse
@@ -84,6 +94,18 @@ On the wards, various procedures are performed on patients by the treating staff
 * Department manager
 
 * The representative of the Ministry of Health
+
+## Transfer to schema
+<p align="center">
+	
+<img src="schema.PNG" alt="" title="Optional title" width="400"  />
+</p>
+
+## Databse diagram
+<p align="center">
+	
+<img src="database.png" alt="" title="Optional title" width="1000"  />
+</p>
 
 
 ## Queries
